@@ -1,0 +1,26 @@
+/* Consistent padding below the fixed nav bar */
+body{
+  padding:70px 40px 20px;
+  font-family:Arial,sans-serif;
+}
+
+/* Centre the video and keep it responsive */
+.video-wrapper{
+  width:100%;                /* shrink inside the body padding */
+  max-width:960px;           /* never exceed 960 px */
+  margin:0 auto 20px;        /* centre horizontally, 20 px gap below */
+}
+.video-wrapper video{
+  width:100%;
+  height:auto;
+  display:block;
+}
+
+/* Text block */
+.video-description{
+  max-width:960px;
+  margin:0 auto 20px;        /* same centring */
+  font:1.05em/1.5 'Georgia',serif;
+  color:#371d10;
+  text-align:center;         /* restore original alignment */
+}

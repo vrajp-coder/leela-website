@@ -1,0 +1,18 @@
+/* Full‑screen hero landing page */
+body{
+  margin:0;
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background:url('../img/landing_page_splatter.jpg') no-repeat center/cover fixed;
+}
+
+/* Oversize name link – overrides nav.css (which sets 3 em) */
+.hero-name{
+  font:7em 'FFF_Magyar-Nemzet-Bold',Arial Narrow,sans-serif;
+  color:#371d10;
+  cursor:pointer;
+  opacity:.7;
+  margin:0;
+}

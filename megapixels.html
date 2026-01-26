@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Leela Pereira | 7.1 Megapixels</title>
+
+  <!-- shared CSS -->
+  <link rel="preload" href="assets/css/main.css" as="style">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/nav.css">
+
+  <!-- page‑specific CSS -->
+  <link rel="stylesheet" href="assets/css/megapixels.css">
+</head>
+<body>
+
+<header>
+  <div class="name" onclick="location.href='index.html'">Leela Pereira</div>
+  <nav class="nav">
+    <div class="tab" onclick="location.href='cinematic.html'">Cinematic</div>
+
+    <div class="menu">
+      <span class="tab">Portfolio</span>
+      <div class="menu-content">
+        <a href="people.html">People</a>
+        <a href="wedding.html">Wedding</a>
+        <a href="engagement.html">Engagement</a>
+        <a href="family.html">Family</a>
+        <a href="product.html">Product</a>
+      </div>
+    </div>
+
+    <div class="menu">
+      <span class="tab active-tab">Personal</span>
+      <div class="menu-content">
+        <a class="active-tab" href="megapixels.html">7.1 Megapixels</a>
+        <a href="costume.html">Costume</a>
+        <a href="play_pretend.html">Play Pretend</a>
+        <a href="street.html">Street</a>
+      </div>
+    </div>
+
+    <div class="tab" onclick="location.href='about_and_contact.html'">About & Contact</div>
+  </nav>
+</header>
+
+<!-- ===== Carousel ===== -->
+<div class="carousel">
+  <div class="arrow left"  onclick="changeImage(-1)">&#10094;</div>
+  <img id="carouselImage" src="" alt="7.1 Megapixels photo">
+  <div class="arrow right" onclick="changeImage(1)">&#10095;</div>
+</div>
+
+<!-- ===== Caption ===== -->
+<div class="image-description">
+  <p>7.1 Megapixels is an ever-growing series shot on a Canon Powershot SD800 that has, as the title of the series says, 7.1 megapixels. I call this camera my 'baby cam'. This series is dedicated to the beauty of the moment, the fun of photography, and overall just a way for me to showcase some moments I really and truly adore. This series is a look into my experiences through life as I photograph all the things I love with a camera that lends to nostalgia. I hope others can enjoy these moments of life as I do.</p>
+</div>
+
+<!-- ===== Scripts ===== -->
+<script type="module" src="assets/js/megapixels.js"></script>
+</body>
+</html>

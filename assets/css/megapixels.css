@@ -1,0 +1,37 @@
+/* 7.1 Megapixels carousel page */
+body{
+  padding:70px 40px 20px;         /* match other pages below fixed nav */
+}
+
+.carousel{
+  display:flex;                 /* visible by default */
+  position:relative;            /* embed in normal flow, not full‑screen */
+  z-index:auto;                 /* inherit stacking context */
+  background:transparent;       /* remove dark overlay */
+  align-items:center;
+  justify-content:center;
+  height:80vh;
+  width:100%;
+}
+
+.carousel img{
+  max-width:90%;
+  max-height:90%;
+}
+
+.arrow{
+  cursor:pointer;
+  font-size:3em;
+  color:#371d10;
+  user-select:none;
+}
+
+.arrow.left{position:absolute;left:50px}
+.arrow.right{position:absolute;right:50px}
+
+.image-description{
+  padding:20px 40px;
+  text-align:center;
+  font:1.05em/1.5 'Georgia',serif;
+  color:#371d10;
+}

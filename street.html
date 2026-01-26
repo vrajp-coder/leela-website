@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Leela Pereira | Street</title>
+
+  <!-- shared CSS -->
+  <link rel="preload" href="assets/css/main.css" as="style">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/nav.css">
+
+  <!-- page‑specific CSS -->
+  <link rel="stylesheet" href="assets/css/street.css">
+</head>
+<body>
+
+<header>
+  <div class="name" onclick="location.href='index.html'">Leela Pereira</div>
+  <nav class="nav">
+    <div class="tab" onclick="location.href='cinematic.html'">Cinematic</div>
+
+    <div class="menu">
+      <span class="tab">Portfolio</span>
+      <div class="menu-content">
+        <a href="people.html">People</a>
+        <a href="wedding.html">Wedding</a>
+        <a href="engagement.html">Engagement</a>
+        <a href="family.html">Family</a>
+        <a href="product.html">Product</a>
+      </div>
+    </div>
+
+    <div class="menu">
+      <span class="tab active-tab">Personal</span>
+      <div class="menu-content">
+        <a href="megapixels.html">7.1 Megapixels</a>
+        <a href="costume.html">Costume</a>
+        <a href="play_pretend.html">Play Pretend</a>
+        <a class="active-tab" href="street.html">Street</a>
+      </div>
+    </div>
+
+    <div class="tab" onclick="location.href='about_and_contact.html'">About & Contact</div>
+  </nav>
+</header>
+
+<!-- ===== Carousel ===== -->
+<div class="carousel">
+  <div class="arrow left"  onclick="changeImage(-1)">&#10094;</div>
+  <img id="carouselImage" src="" alt="Street photography">
+  <div class="arrow right" onclick="changeImage(1)">&#10095;</div>
+</div>
+
+<!-- ===== Scripts ===== -->
+<script type="module" src="assets/js/street.js"></script>
+</body>
+</html>

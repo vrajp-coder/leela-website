@@ -1,0 +1,36 @@
+/* leave nav + body padding to main.css */
+body{
+  padding:70px 40px 20px;          /* below fixed nav */
+  font-family:Arial,sans-serif;
+}
+
+/* embedded carousel – NOT full‑screen */
+.carousel{
+  display:flex;                   /* stays visible */
+  position:relative;             /* keep inside page flow */
+  inset:auto;                    /* cancel the “cover the whole screen” rule */
+  background:transparent;        /* kill the dark overlay */
+  justify-content:center;
+  align-items:center;
+  width:100%;
+  max-width:960px;
+  height:auto;                   /* let the image dictate height */
+  min-height:80vh;               /* vertical centring in viewport */
+  margin:0 auto 20px;            /* centred, with gap below */
+}
+
+.carousel img{
+  max-width:100%;
+  max-height:80vh;               /* fit portrait & landscape */
+  height:auto;
+}
+
+.arrow{
+  cursor:pointer;
+  font-size:3em;
+  color:#371d10;
+  user-select:none;
+}
+
+.arrow.left{position:absolute;left:50px}
+.arrow.right{position:absolute;right:50px}

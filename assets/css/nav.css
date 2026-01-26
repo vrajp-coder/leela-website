@@ -1,0 +1,24 @@
+/* Header & navigation bar – extracted verbatim from people.html etc. */
+header{
+  display:flex;justify-content:space-between;align-items:center;
+  position:fixed;top:0;left:0;width:100%;z-index:1000;
+  padding:10px 20px;margin:0;background:rgba(255,255,255,.7);
+  box-sizing:border-box
+}
+@font-face{
+  font-family:'FFF_Magyar-Nemzet-Bold';
+  src: url('../fonts/FFF_Magyar-Nemzet-Bold.woff2') format('woff2'),
+       url('../fonts/FFF_Magyar-Nemzet-Bold.woff')  format('woff');
+}
+.name{font:3em 'FFF_Magyar-Nemzet-Bold',Arial Narrow,sans-serif;color:#371d10;cursor:pointer}
+.nav{display:flex;margin-right:20px;color:#371d10}
+.tab{margin-right:20px;cursor:pointer;font-family:'Palatino Linotype','Book Antiqua',Palatino,serif;color:#371d10}
+.active-tab{font-weight:bold}
+.menu{position:relative;display:inline-block;color:#371d10;font-family:'Palatino Linotype',serif}
+.menu-content{
+  display:none;position:absolute;right:0;min-width:160px;padding:12px 16px;
+  background:#f9f9f9;box-shadow:0 8px 16px rgba(0,0,0,.2);z-index:1
+}
+.menu:hover .menu-content{display:block}
+.menu-content a{display:block;padding:8px 12px;text-decoration:none;color:#371d10}
+.menu-content a:hover{background:#f2f2f2}
