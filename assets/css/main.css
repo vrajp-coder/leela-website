@@ -4,7 +4,7 @@ body{
   font-family:Arial,sans-serif
 }
 
-/* ======= GALLERY GRID (people, family, product, costume) ======= */
+/* ======= GALLERY GRID (people, wedding & engagement, family, food & product) ======= */
 .photo-grid{display:grid;grid-template-columns:repeat(4,1fr);grid-gap:15px}
 .photo{position:relative;aspect-ratio:1/1;width:100%;background-size:cover;cursor:pointer;overflow:hidden}
 .view-more{
@@ -14,6 +14,13 @@ body{
 }
 .photo:hover .view-more{opacity:1}
 .shoot-name{font-size:1.2em;font-weight:bold}
+.shoot-subtitle {
+  display: block;
+  font-size: 0.85em;
+  color: #555;
+  font-style: italic;
+  margin: 4px 0;
+}
 .view-more-text{font-size:.8em;margin-top:10px}
 
 /* ======= LIGHTBOX / CAROUSEL (shared) ======= */

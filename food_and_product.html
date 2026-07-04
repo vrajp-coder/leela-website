@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
-  <title>Leela Pereira | Product</title>
+  <title>Leela Pereira | Food & Product</title>
 
   <!-- shared CSS -->
   <link rel="preload" href="assets/css/main.css" as="style">
@@ -15,12 +15,13 @@
     .photo1 {background-image:url('assets/img/YTTP_Cover.jpg');}
     .photo2 {background-image:url('assets/img/HoneyHalo_Cover.jpg');}
     .photo3 {background-image:url('assets/img/SauvageDior_Cover.jpg');}
-    .photo4 {background-image:url('assets/img/CarolinaPerfume_Cover.jpg');}
-    .photo5 {background-image:url('assets/img/Botanicals_Cover.jpg');}
-    .photo6 {background-image:url('assets/img/B4M-ECOM-1.jpg');}
-    .photo7 {background-image:url('assets/img/Calypso_Cover.jpg');}
-    .photo8 {background-image:url('assets/img/Cocktails_Cover.jpg');}
-    .photo9 {background-image:url('assets/img/CrochetAnimals_Cover.jpg');}
+    .photo4 {background-image:url('assets/img/SeashellJewels_Cover.jpg');}
+    .photo5 {background-image:url('assets/img/CarolinaPerfume_Cover.jpg');}
+    .photo6 {background-image:url('assets/img/Botanicals_Cover.jpg');}
+    .photo7 {background-image:url('assets/img/B4M-ECOM-1.jpg');}
+    .photo8 {background-image:url('assets/img/Calypso_Cover.jpg');}
+    .photo9 {background-image:url('assets/img/Cocktails_Cover.jpg');}
+    .photo10{background-image:url('assets/img/CrochetAnimals_Cover.jpg');}
   </style>
 </head>
 <body>
@@ -34,10 +35,10 @@
       <span class="tab active-tab">Portfolio</span>
       <div class="menu-content">
         <a href="people.html">People</a>
-        <a href="wedding.html">Wedding</a>
-        <a href="engagement.html">Engagement</a>
+        <a href="wedding_and_engagement.html">Wedding & Engagement</a>
+        <a href="event.html">Event</a>
         <a href="family.html">Family</a>
-        <a href="product.html" class="tab active-tab">Product</a>
+        <a href="food_and_product.html" class="tab active-tab">Food & Product</a>
       </div>
     </div>
 
@@ -45,7 +46,6 @@
       <span class="tab">Personal</span>
       <div class="menu-content">
         <a href="megapixels.html">7.1 Megapixels</a>
-        <a href="costume.html">Costume</a>
         <a href="play_pretend.html">Play Pretend</a>
         <a href="street.html">Street</a>
       </div>
@@ -61,12 +61,13 @@
   <div class="photo photo1"  onclick="openCarousel(0,0)"> <div class="view-more"><span class="shoot-name">Youth to the People</span> <span class="view-more-text">View More</span></div></div>
   <div class="photo photo2"  onclick="openCarousel(1,0)"> <div class="view-more"><span class="shoot-name">Honey Halo</span>          <span class="view-more-text">View More</span></div></div>
   <div class="photo photo3"  onclick="openCarousel(2,0)"> <div class="view-more"><span class="shoot-name">Sauvage Dior</span>        <span class="view-more-text">View More</span></div></div>
-  <div class="photo photo4"  onclick="openCarousel(3,0)"> <div class="view-more"><span class="shoot-name">Carolina Herrera: Good Girl</span></div></div>
-  <div class="photo photo5"  onclick="openCarousel(4,0)"> <div class="view-more"><span class="shoot-name">Botanicals</span>          <span class="view-more-text">View More</span></div></div>
-  <div class="photo photo6"  onclick="openCarousel(5,0)"> <div class="view-more"><span class="shoot-name">B4M-ECOM</span>            <span class="view-more-text">View More</span></div></div>
-  <div class="photo photo7"  onclick="openCarousel(6,0)"> <div class="view-more"><span class="shoot-name">Calypso</span></div></div>
-  <div class="photo photo8"  onclick="openCarousel(7,0)"> <div class="view-more"><span class="shoot-name">Cocktails</span>           <span class="view-more-text">View More</span></div></div>
-  <div class="photo photo9"  onclick="openCarousel(8,0)"> <div class="view-more"><span class="shoot-name">Crochet Animals</span>     <span class="view-more-text">View More</span></div></div>
+  <div class="photo photo4"  onclick="openCarousel(3,0)"> <div class="view-more"><span class="shoot-name">Seashell Jewels</span>     <span class="view-more-text">View More</span></div></div>
+  <div class="photo photo5"  onclick="openCarousel(4,0)"> <div class="view-more"><span class="shoot-name">Carolina Herrera: Good Girl</span></div></div>
+  <div class="photo photo6"  onclick="openCarousel(5,0)"> <div class="view-more"><span class="shoot-name">Botanicals</span>          <span class="view-more-text">View More</span></div></div>
+  <div class="photo photo7"  onclick="openCarousel(6,0)"> <div class="view-more"><span class="shoot-name">B4M-ECOM</span>            <span class="view-more-text">View More</span></div></div>
+  <div class="photo photo8"  onclick="openCarousel(7,0)"> <div class="view-more"><span class="shoot-name">Calypso</span></div></div>
+  <div class="photo photo9"  onclick="openCarousel(8,0)"> <div class="view-more"><span class="shoot-name">Cocktails</span>           <span class="view-more-text">View More</span></div></div>
+  <div class="photo photo10" onclick="openCarousel(9,0)"> <div class="view-more"><span class="shoot-name">Crochet Animals</span>     <span class="view-more-text">View More</span></div></div>
 </div>
 
 <!-- ========= Light‑box ========= -->
@@ -80,7 +81,7 @@
 
 <!-- ========= Scripts ========= -->
 <script type="module">
-  import { carousels } from './assets/js/data/product.js';
+  import { carousels } from './assets/js/data/food_and_product.js';
   window.carousels = carousels;      // expose to carousel.js
 </script>
 <script defer src="assets/js/carousel.js"></script>

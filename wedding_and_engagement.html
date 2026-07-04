@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
-  <title>Leela Pereira | Family</title>
+  <title>Leela Pereira | Wedding & Engagement</title>
 
   <!-- shared CSS -->
   <link rel="preload" href="assets/css/main.css" as="style">
@@ -12,8 +12,9 @@
 
   <!-- page‑specific thumbnail backgrounds only -->
   <style>
-    .photo1 {background-image:url('assets/img/D_Cover.jpg');}
-    .photo2 {background-image:url('assets/img/Woodhouse_Cover.jpg');}
+    .photo1 {background-image:url('assets/img/Sarah_and_Chase_Cover.jpg');}
+    .photo2 {background-image:url('assets/img/Tobi_and_Manny_Cover.jpg');}
+    .photo3 {background-image:url('assets/img/Dani_and_Sam_Cover.jpg');}
   </style>
 </head>
 <body>
@@ -27,9 +28,9 @@
       <span class="tab active-tab">Portfolio</span>
       <div class="menu-content">
         <a href="people.html">People</a>
-        <a href="wedding_and_engagement.html">Wedding & Engagement</a>
+        <a href="wedding_and_engagement.html" class="tab active-tab">Wedding & Engagement</a>
         <a href="event.html">Event</a>
-        <a href="family.html" class="tab active-tab">Family</a>
+        <a href="family.html">Family</a>
         <a href="food_and_product.html">Food & Product</a>
       </div>
     </div>
@@ -50,8 +51,9 @@
 <!-- ========= Gallery grid ========= -->
 <div class="photo-grid">
   <!-- (unchanged markup – each tile opens the right carousel set) -->
-  <div class="photo photo1"  onclick="openCarousel(0,0)"><div class="view-more"><span class="shoot-name">D</span>         <span class="view-more-text">View More</span></div></div>
-  <div class="photo photo2"  onclick="openCarousel(1,0)"><div class="view-more"><span class="shoot-name">Woodhouse</span> <span class="view-more-text">View More</span></div></div>
+  <div class="photo photo1"  onclick="openCarousel(0,0)"> <div class="view-more"><span class="shoot-name">Sarah & Chase</span> <span class="shoot-subtitle">On Film</span> <span class="view-more-text">View More</span></div></div>
+  <div class="photo photo2"  onclick="openCarousel(1,0)"> <div class="view-more"><span class="shoot-name">Tobi & Manny</span>                                              <span class="view-more-text">View More</span></div></div>
+  <div class="photo photo3"  onclick="openCarousel(2,0)"> <div class="view-more"><span class="shoot-name">Dani & Sam</span>                                                <span class="view-more-text">View More</span></div></div>
 </div>
 
 <!-- ========= Light‑box ========= -->
@@ -65,7 +67,7 @@
 
 <!-- ========= Scripts ========= -->
 <script type="module">
-  import { carousels } from './assets/js/data/family.js';
+  import { carousels } from './assets/js/data/wedding_and_engagement.js';
   window.carousels = carousels;      // expose to carousel.js
 </script>
 <script defer src="assets/js/carousel.js"></script>

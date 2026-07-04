@@ -1,0 +1,7 @@
+/* assets/js/data/wedding_and_engagement.js */
+export const carousels = [
+    ['assets/img/Sarah_and_Chase_1.jpg', 'assets/img/Sarah_and_Chase_2.jpg', 'assets/img/Sarah_and_Chase_3.jpg', 'assets/img/Sarah_and_Chase_4.jpg', 'assets/img/Sarah_and_Chase_5.jpg', 'assets/img/Sarah_and_Chase_6.jpg', 'assets/img/Sarah_and_Chase_7.jpg', 'assets/img/Sarah_and_Chase_8.jpg', 'assets/img/Sarah_and_Chase_9.jpg', 'assets/img/Sarah_and_Chase_10.jpg'],
+    ['assets/img/Tobi_and_Manny_1.jpg', 'assets/img/Tobi_and_Manny_2.jpg', 'assets/img/Tobi_and_Manny_3.jpg', 'assets/img/Tobi_and_Manny_4.jpg', 'assets/img/Tobi_and_Manny_5.jpg', 'assets/img/Tobi_and_Manny_6.jpg', 'assets/img/Tobi_and_Manny_7.jpg', 'assets/img/Tobi_and_Manny_8.jpg', 'assets/img/Tobi_and_Manny_9.jpg', 'assets/img/Tobi_and_Manny_10.jpg'],
+    ['assets/img/Dani_and_Sam_1.jpg', 'assets/img/Dani_and_Sam_2.jpg', 'assets/img/Dani_and_Sam_3.jpg', 'assets/img/Dani_and_Sam_4.jpg', 'assets/img/Dani_and_Sam_5.jpg', 'assets/img/Dani_and_Sam_6.jpg', 'assets/img/Dani_and_Sam_7.jpg', 'assets/img/Dani_and_Sam_8.jpg', 'assets/img/Dani_and_Sam_9.jpg', 'assets/img/Dani_and_Sam_10.jpg', 'assets/img/Dani_and_Sam_11.jpg', 'assets/img/Dani_and_Sam_12.jpg', 'assets/img/Dani_and_Sam_13.jpg', 'assets/img/Dani_and_Sam_14.jpg', 'assets/img/Dani_and_Sam_15.jpg', 'assets/img/Dani_and_Sam_16.jpg']
+    // ... And arrays for other carousels
+];

@@ -1,4 +1,4 @@
-/* Generic light‑box logic – extracted from people.html, product.html, etc. */
+/* Generic light‑box logic – extracted from people.html, food_and_product.html, etc. */
 let currentCarouselIndex = 0;
 let currentImageIndex = 0;
 
